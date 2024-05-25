@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+  font-family: 'Arial', sans-serif;
+}
+
+.home-container {
+  padding: 20px;
+  background-color: #141016;
+ 
+}.profile-photo {
+  width: 295px; 
+  height: 415px; 
+  margin-bottom: 20px;
+  margin-left: 700px;
+  border-radius: 20px;
+  margin-top: 67px;
+  animation: slideInFromRight 1s ease-in-out;
+}
+
+#name1{
+    margin-top: -250px;
+    padding-left: 40px;
+    font-size: 40px;
+}
+  
+#name2{
+    padding-left: 40px;
+    margin-top: -30px;
+    font-size: 50px;
+}
+  
+#name3{
+    margin-top: -80px;
+    padding: 40px;
+    font-size: 40px;
+}
+.header {
+  background-color: #141016;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.812);
+  height:630px;
+  border-radius: 10px;
+}
+
+.bio {
+  color: white;
+  background-color: #2d313c;
+  margin-top: 40px;
+  padding: 30px; 
+  border-radius: 10px;
+}
+
+.portfolio {
+  margin-top: 75px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.bio h2,
+.contact h2,
+.social-media h2,
+.portfolio h2 {
+  color: #a61aed;
+}
+
+.bio h3 {
+  color: rgb(255, 255, 255);
+}
+
+.bio ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.bio p,
+.contact a,
+.social-media ul {
+  font-size: 18px;
+}
+.contact {
+    background-color: #2d313c;
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.contact a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+.social-media{
+    margin-top: 100px;
+}
+.social-media h2{
+    margin-left: 450px;
+}
+.social-media ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.social-media li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-media a {
+  font-size: 20px;
+
+  color: #f2f2f2;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+  color: #a61aed;
+  transform: scale(1.1);
+}
+
+.project {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #141016;
+  border-radius: 10px;
+  color: white;
+  transition: transform 0.3s;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+
+@keyframes slideIn {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .animated-text {
+    animation: slideIn 0.5s ease forwards;
+  }
+  
